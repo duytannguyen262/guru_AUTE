@@ -9,6 +9,8 @@ import org.openqa.selenium.firefox.FirefoxDriver;
 import org.testng.Assert;
 import org.testng.annotations.*;
 
+@Listeners(testNG.ListenerTest.class)
+
 public class bai1 {
 
 	
@@ -18,7 +20,7 @@ public class bai1 {
    
     public static String expected = null;
     public static String actual = null;
-    
+       
     @BeforeTest 
 	public void beforeTest()
 	{

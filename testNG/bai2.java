@@ -11,6 +11,8 @@ import org.openqa.selenium.support.ui.Select;
 import org.testng.Assert;
 import org.testng.annotations.*;
 
+@Listeners(testNG.ListenerTest.class)
+
 public class bai2 {
 
 	
